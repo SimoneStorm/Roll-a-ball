@@ -15,7 +15,7 @@ To create a unique theme, I used the "Skybox Series Free" asset pack and selecte
 
 For the player/ball, I created a sphere and turned it into a shooting star by adding a Trail Renderer component. 
 
-![Game Scene]
+![Game Scene](Roll-a-ball game design.png)
 
 
 
