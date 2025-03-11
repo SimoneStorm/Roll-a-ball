@@ -12,7 +12,7 @@ public class BallReset : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("DeathZone"))
+        if (other.CompareTag("DeathZone") || other.CompareTag("Hole"))
         {
             // Reset the ball to the start position
             transform.position = startPosition;
